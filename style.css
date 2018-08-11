@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+    background: #b1cee4;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.form-body {
+    background: rgb(248, 248, 247);
+    width: 75%;
+    margin: 0 auto;
+    min-width: 320px;
+    border-radius: 5px;
+}
+
+p {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.flex-box {
+    display: flex;
+    margin: 25px auto;
+}
+
+label {
+    flex: 50%;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.rightTab {
+    flex: 50%;
+    display: flex;
+}
+
+.input-field {
+    height: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+select {
+    margin: 0;
+    padding: 12px 16px;
+    height: 35px;
+    width: 200px;
+}
+
+[for="userRating"] {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    text-align: left;
+}
+
+textarea {
+    margin-left: 15px;
+}
+
+
+button {
+    margin: 30px auto;
+    padding: 14px 28px;
+    border-radius: 5px;
+    background: rgb(74, 193, 240);
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 560px) {
+    .flex-box {
+        flex-direction: column;
+    }
+    label {
+        margin-left: 10px;
+        text-align: left;
+    }
+    textarea {
+        margin-top: 15px;
+    }
+    [for="userRating"] {
+        margin-left: 10px;
+    }
+    select {
+        margin-top: 15px;
+    }
+    .input-field {
+        margin-top: 10px;
+    }
+}
